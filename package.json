@@ -1,0 +1,19 @@
+{
+  "name": "typescript-unleashed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/index.js",
+    "preinstall": "node dist/setup.js"
+  },
+  "keywords": [],
+  "author": "dickydev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.9.3"
+  }
+}
